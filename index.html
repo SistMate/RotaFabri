@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sorteo de Rifa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- LOGO -->
+  <div class="logo-box">
+    <img src="logoblanco.png" alt="Logo del club">
+  </div>
+
+  <!-- TITULO -->
+  <h1>TODOS POR FABRICIO</h1>
+
+  <!-- BOTON -->
+  <button id="btnSortear">Sortear Ganador</button>
+
+  <!-- ANIMACION -->
+  <div id="animacion">🎲</div>
+
+  <!-- RESULTADO -->
+  <div id="ganador" class="card hidden">
+    <h2>🏆 Ganador</h2>
+    <p><strong>Número:</strong> <span id="num"></span></p>
+    <p><strong>Nombre:</strong> <span id="nombre"></span></p>
+    <p><strong>Celular:</strong> <span id="celular"></span></p>
+  </div>
+
+</div>
+
+<!-- CONFETI -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
